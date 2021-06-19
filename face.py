@@ -66,3 +66,7 @@ while True:
 cap.release()  # Closes the capturing device (works as a destructor)
 cv2.destroyAllWindows()  # Destroys all the windows created by imshow method of cv2
 print("Successfully completed the collection of samples.")
+
+
+# AFTER CREATING THE DATASET, IT WAS UPLOADED ON GOOGLE DRIVE FOR EASIER ACCESS.
+# WHILE TRAINING THE MODEL, GOOGLE DRIVE HAD BEEN MOUNTED.
